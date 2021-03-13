@@ -1,0 +1,31 @@
+{
+  "name": "starter-microfrontends-firebase",
+  "version": "0.0.1",
+  "main": "index.js",
+  "devDependencies": {
+    "npm-run-all": "^4.1.5"
+  },
+  "scripts": {
+    "install": "npm-run-all --serial install:*",
+    "install:main-shell": "cd main-shell && npm i",
+    "install:reactapp": "cd reactapp && npm i",
+    "install:vueapp": "cd vueapp && npm i",
+    "start": "npm-run-all --parallel start:*",
+    "start:main-shell": "cd main-shell && npm start",
+    "start:reactapp": "cd reactapp && npm start",
+    "start:vueapp": "cd vueapp && npm start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "qiankun",
+    "micro-frontends",
+    "firebase",
+    "starter"
+  ],
+  "author": "Issam El Nasiri",
+  "license": "MIT"
+}
