@@ -8,7 +8,7 @@ Clone the repository to a desired location using ssh or http:
 $ git clone https://github.com/IssamElNass/Starter-MicroFrontends-Firebase.git
 ```
 
-Follow the tutorial on [Dev.to](https://dev.to/)
+Follow the tutorial on [Dev.to](https://dev.to/issamelnass/let-s-create-a-web-application-with-micro-frontends-and-firebase-3b0o)
 
 Now run the yarn/npm scripts in the root folder to install and run the project:
 
